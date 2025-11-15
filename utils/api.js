@@ -18,22 +18,3 @@ instance.interceptors.request.use((config) => {
 
 export default instance;
 
-
-// import axios from "axios";
-
-// const instance = axios.create({
-//   baseURL: process.env.NEXT_PUBLIC_API_BASE || "http://localhost:5000/api",
-//   headers: { "Content-Type": "application/json" },
-//   withCredentials: true // only needed if backend uses credentials: true
-// });
-
-// // attach token automatically if stored
-// instance.interceptors.request.use(config => {
-//   if (typeof window !== "undefined") {
-//     const token = localStorage.getItem("token");
-//     if (token) config.headers.Authorization = `Bearer ${token}`;
-//   }
-//   return config;
-// });
-
-// export default instance;
