@@ -301,7 +301,7 @@ export default function RootLayout({ children }) {
         {/* Tracking Script */}
         <Script
           src="https://we-track-analytics.vercel.app/tracker/trackmaster.js"
-          data-site-id="site_iy1fagYQ81"
+          data-site-id="site_lxGnAaRl3G"
           strategy="afterInteractive"
         />
       </body>
