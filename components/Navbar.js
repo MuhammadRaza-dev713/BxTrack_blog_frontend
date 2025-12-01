@@ -93,6 +93,17 @@ const handleLogout = () => {
             Home
           </Link>
 
+          <Link
+            href="/contact"
+            className={`transition ${
+              isActive("/contact")
+                ? "text-purple-600 font-semibold border-b-2 border-purple-600 pb-1"
+                : "hover:text-purple-600"
+            }`}
+          >
+            Contact us
+          </Link>
+
           {mounted && auth?.user ? (
             <>
               <Link
