@@ -69,6 +69,7 @@ export default function ContactPage() {
             <input
               required
               type="text"
+              name="firstName"
               value={form.firstName}
               onChange={(e) => setForm({ ...form, firstName: e.target.value })}
               placeholder="John"
@@ -84,6 +85,7 @@ export default function ContactPage() {
             <input
               required
               type="text"
+              name="lastName"
               value={form.lastName}
               onChange={(e) => setForm({ ...form, lastName: e.target.value })}
               placeholder="Doe"
@@ -99,6 +101,7 @@ export default function ContactPage() {
             <input
               required
               type="tel"
+              name="phoneNumber"
               value={form.phone}
               onChange={(e) => setForm({ ...form, phone: e.target.value })}
               placeholder="+1 (555) 123-4567"
@@ -114,6 +117,7 @@ export default function ContactPage() {
             <input
               required
               type="email"
+              name="email"
               value={form.email}
               onChange={(e) => setForm({ ...form, email: e.target.value })}
               placeholder="john@example.com"
